@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/',  // para domínio customizado
   plugins: [react()],
   resolve: {
     alias: {
