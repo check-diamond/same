@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/juteste/',
+  base: '/same/',
   plugins: [react()],
   resolve: {
     alias: {
